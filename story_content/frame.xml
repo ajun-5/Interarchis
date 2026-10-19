@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxnabnsnfns00001100101" font="Open Sans" controllayout="pxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxnanbnsnfns00000000101" font="Open Sans" controllayout="pxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
   </layouts>
   <control_options>
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option name="title_enabled" value="true">
+          <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Simulasi Interaktif - Copy" />
+              <option name="title_text" value="Interarchis" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -28,10 +28,10 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
-              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="linkleft" />
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
-              <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
           <option name="time_enabled" value="false">
@@ -69,12 +69,12 @@
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="true">
+          <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Open Sans" />
             </options>
           </option>
-          <option name="settings" value="true" />
+          <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
           <option name="playbackSpeedControl" value="false" />
         </options>
@@ -87,7 +87,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100101">
+    <control_layout name="npnxnanbsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -100,17 +100,17 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100101">
+    <control_layout name="pxabnsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -123,17 +123,17 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100101">
+    <control_layout name="npxnabnsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -146,17 +146,17 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
+    <control_layout name="npnxnanbnsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -169,17 +169,17 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100100">
+    <control_layout name="pxabnsnfns00000000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -192,17 +192,17 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pxnabnsnfns00001100101">
+    <control_layout name="pxnanbnsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -211,14 +211,14 @@
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="true" />
+      <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -227,7 +227,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001100101">
+    <colorscheme name="npnxnanbnsnfns00000000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1144,7 +1144,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001100101">
+    <string_table name="npnxnanbnsnfns00000000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1310,6 +1310,37 @@
   <nav_data>
     <outline>
       <links>
+        <slidelink slideid="_player.5uAOjIcmslN" displaytext="Sistem Abjad" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5uAOjIcmslN.6Ns5QApW5Na" displaytext="Urutkan Surat" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6Nro1Rhimzb" displaytext="Input Indeks Surat 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5ZjiHqgRvtR" displaytext="Input Indeks Surat 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6P8MSjf9LtL" displaytext="Input Agenda Arsip 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.68D1MFGBbDY" displaytext="Input Agenda Arsip 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.67LP6RM3j2r" displaytext="Input Agenda Arsip 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6ZVNxD2IG4W" displaytext="Pilih Laci 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.66EWqXni2QM" displaytext="Pilih Laci 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5mCPqcPV9R4" displaytext="Pilih Laci 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5oePelncTCg" displaytext="Pilih Folder 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5ejgBxXzcOe" displaytext="Pilih Folder 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6j9LZNZmny4" displaytext="Pilih Folder 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6Shx1SXcWTA" displaytext="Cover Konsep Dasar" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5ZSt22Occ2K" displaytext="Konsep Dasar" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5fwtQHWzip7" displaytext="Cover Langkah Sistem Abjad" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5tFtUne9wQW" displaytext="Materi Urut" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6q0JgaK9nPF" displaytext="Mengindeks 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5k8ViYJQip5" displaytext="Mengindeks 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5jr04ZS3hYZ" displaytext="Mengindeks 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6KrqxuUA298" displaytext="Buku Agenda 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6h0Pft3V6XI" displaytext="Buku Agenda 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5dctXoFfnqo" displaytext="Filing Cabinet &amp;amp; Folder" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.63b30D7nOiG" displaytext="Main Menu Sistem Abjad" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5rDsNgYo4D1" displaytext="Petunjuk Simulasi" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.6HcZgJvNtov" displaytext="After materi" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAOjIcmslN.5dPRevkJOAr" displaytext="After Simulasi" expand="false" type="slide" />
+            <slidelink slideid="_player.6qyuzh5OQ86.5tfoZtQbBXC" displaytext="After Simulasi" expand="false" type="slide" />
+          </links>
+        </slidelink>
         <slidelink slideid="_player.6qyuzh5OQ86" displaytext="Sistem Subjek" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6qyuzh5OQ86.61hOaiShJnx" displaytext="Main Menu Sistem Subjek" expand="false" type="slide" />
@@ -1324,7 +1355,6 @@
             <slidelink slideid="_player.6qyuzh5OQ86.5thUj4vxLFf" displaytext="Pilih Folder 1" expand="false" type="slide" />
             <slidelink slideid="_player.6qyuzh5OQ86.6nxX73D2Ezf" displaytext="Pilih Folder 2" expand="false" type="slide" />
             <slidelink slideid="_player.6qyuzh5OQ86.6Ap3yfxMXW9" displaytext="Pilih Folder 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6qyuzh5OQ86.5tfoZtQbBXC" displaytext="After Simulasi" expand="false" type="slide" />
             <slidelink slideid="_player.6qyuzh5OQ86.6fQQRS64b7r" displaytext="Cover Konsep Dasar" expand="false" type="slide" />
             <slidelink slideid="_player.6qyuzh5OQ86.6q9OTS4eTSk" displaytext="Konsep Dasar" expand="false" type="slide" />
             <slidelink slideid="_player.6qyuzh5OQ86.5Z7R2onml9E" displaytext="Cover Langkah Sistem Subjek" expand="false" type="slide" />
@@ -1355,7 +1385,7 @@
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
